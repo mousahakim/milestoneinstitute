@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 .navbar-head .navbar-brand a {
 	background: url('../img/milestone_red.png') center no-repeat !important;
 	background-size: 300px !important;
@@ -22,4 +24,58 @@
 
 .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-text {
 	color: #000 !important;
+}
+
+.feature-visual {
+	height: 420px !important;
+}
+.footer {
+	height: 80px !important;
+}
+
+.feature-text {
+	font-family: 'Raleway', sans-serif !important;
+}
+
+.icon-rounded .icon:hover {
+	color: #fff !important;
+	background: #e3483b !important;
+ }
+
+.icon-rounded .icon {
+	color: #e3483b !important;
+	border: 1px solid #e3483b !important;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(227, 72, 59) !important;
+    border-right-color: rgb(227, 72, 59) !important;
+    border-bottom-color: rgb(227, 72, 59) !important;
+    border-left-color: rgb(227, 72, 59) !important;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image-source: none;
+    border-image-slice: 100%;
+    border-image-width: 1;
+    border-image-outset: 0;
+    border-image-repeat: stretch stretch;
+}
+
+.navbar-main .nav > .active > a > span, .navbar-main .nav > li:hover > a > span {
+    border-color: #e3483b !important;
+}
+
+.navbar-main .nav > li > a > span {
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+        border-bottom-color: transparent;
 }

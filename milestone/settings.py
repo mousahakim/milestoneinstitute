@@ -130,6 +130,7 @@ INSTALLED_APPS = (
     'djangocms_text_ckeditor',
     'filer',
     'easy_thumbnails',
+    'mptt',
     'djangocms_column',
     'djangocms_file',
     'djangocms_link',
@@ -138,6 +139,25 @@ INSTALLED_APPS = (
     'djangocms_snippet',
     'djangocms_googlemap',
     'djangocms_video',
+    'djangocms_fullslider',
+    'aldryn_bootstrap3',
+    'absolute',
+    'aldryn_forms',
+    'aldryn_forms.contrib.email_notifications',
+    'captcha',
+    'emailit',
+    'aldryn_common',
+    'aldryn_boilerplates',
+    'aldryn_people',
+    'parler',
+    'aldryn_translation_tools',
+    'sortedm2m',
+    'cmsplugin_filer_file',
+    'cmsplugin_filer_folder',
+    'cmsplugin_filer_link',
+    'cmsplugin_filer_image',
+    'cmsplugin_filer_teaser',
+    'cmsplugin_filer_video',
     'milestone'
 )
 
@@ -197,3 +217,9 @@ THUMBNAIL_PROCESSORS = (
     'filer.thumbnail_processors.scale_and_crop_with_subject_location',
     'easy_thumbnails.processors.filters'
 )
+
+DJANGOCMS_STYLE_CHOICES = ['container', 'content', 'teaser','section-gray','section-cyan','section-violet','feature-content','text-center','feature-visual','feature-visual-narrow','visual-wrapper']
+
+ALDRYN_BOILERPLATE_NAME='bootstrap3'
+
+THUMBNAIL_HIGH_RESOLUTION = True
