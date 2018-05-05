@@ -91,7 +91,8 @@ TEMPLATES = [
             'loaders': [
                 'django.template.loaders.filesystem.Loader',
                 'django.template.loaders.app_directories.Loader',
-                'django.template.loaders.eggs.Loader'
+                'django.template.loaders.eggs.Loader',
+                'aldryn_boilerplates.template_loaders.AppDirectoriesLoader'
             ],
         },
     },
@@ -223,3 +224,10 @@ DJANGOCMS_STYLE_CHOICES = ['container', 'content', 'teaser','section-gray','sect
 ALDRYN_BOILERPLATE_NAME='bootstrap3'
 
 THUMBNAIL_HIGH_RESOLUTION = True
+
+STATICFILES_FINDERS = (
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'aldryn_boilerplates.staticfile_finders.AppDirectoriesFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+)
+
