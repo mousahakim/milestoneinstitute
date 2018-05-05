@@ -73,7 +73,7 @@ SITE_ID = 1
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'milestone', 'templates'),],
+        'DIRS': [os.path.join(BASE_DIR, 'milestone', 'templates', 'boilerplates'),],
         'OPTIONS': {
             'context_processors': [
                 'django.contrib.auth.context_processors.auth',
