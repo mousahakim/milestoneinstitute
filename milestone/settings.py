@@ -170,7 +170,8 @@ INSTALLED_APPS = (
     'django_tablib',
     'extended_choices',
     'standard_form',
-    'aldryn_events'
+    'aldryn_events', 
+    'config'
 )
 
 LANGUAGES = (
