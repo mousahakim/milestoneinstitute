@@ -91,9 +91,9 @@ TEMPLATES = [
             ],
             'loaders': [
                 'django.template.loaders.filesystem.Loader',
+                'aldryn_boilerplates.template_loaders.AppDirectoriesLoader',
                 'django.template.loaders.app_directories.Loader',
-                'django.template.loaders.eggs.Loader',
-                'aldryn_boilerplates.template_loaders.AppDirectoriesLoader'
+                'django.template.loaders.eggs.Loader'
             ],
         },
     },
@@ -129,6 +129,8 @@ INSTALLED_APPS = (
     'menus',
     'sekizai',
     'treebeard',
+    'aldryn_categories',
+    'taggit',
     'djangocms_text_ckeditor',
     'filer',
     'easy_thumbnails',
@@ -160,7 +162,15 @@ INSTALLED_APPS = (
     'cmsplugin_filer_image',
     'cmsplugin_filer_teaser',
     'cmsplugin_filer_video',
-    'milestone'
+    'milestone',
+    'aldryn_newsblog',
+    'aldryn_apphooks_config',
+    'appconfig',
+    'bootstrap3',
+    'django_tablib',
+    'extended_choices',
+    'standard_form',
+    'aldryn_events'
 )
 
 LANGUAGES = (
@@ -191,7 +201,7 @@ CMS_TEMPLATES = (
     ('fullwidth.html', 'Fullwidth'),
     ('sidebar_left.html', 'Sidebar Left'),
     ('sidebar_right.html', 'Sidebar Right'),
-    ('two_column.html', 'Two Column')
+    # ('two_column.html', 'Two Column')
 )
 
 CMS_PERMISSION = True
