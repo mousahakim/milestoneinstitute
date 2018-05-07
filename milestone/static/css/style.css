@@ -86,11 +86,23 @@
         padding-right: 5px !important;
         padding-top: 75px;
     }
+
+    .navbar-head .navbar-brand a {
+        background: url('../img/milestone_red.png') center no-repeat !important;
+        background-size: 250px !important;
+    }
+
+    .navbar-head .navbar-brand a {
+        width: 250px !important;
+    }
+    
+    
 }
 
-.navbar-toggle {
-    background-color: #00000030 !important;
+button.navbar-toggle {
+    background-color: rgba(0,0,0,.3); !important;
 }
+
 
 
 
