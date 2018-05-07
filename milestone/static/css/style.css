@@ -10,7 +10,7 @@
 }
 
 .navbar-inverse {
-	background-color: rgba(255,255,255,.9) !important;
+	background-color: rgb();(255,255,255) !important;
 }
 
 .navbar-inverse .navbar-nav>.active>a,
@@ -79,3 +79,43 @@
         border-bottom-style: solid;
         border-bottom-color: transparent;
 }
+
+@media (max-width: 500px){
+    .aldryn-events-list article {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+        padding-top: 75px;
+    }
+}
+
+.navbar-toggle {
+    background-color: #00000030 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
